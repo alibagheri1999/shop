@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const appInformation = require("./package/informations.js");
 const bodyParser = require("body-parser");
+const compression = require("compression");
 const MongoClient = require("mongodb").MongoClient;
 const cors = require("cors");
 const morgan = require("morgan");
@@ -51,6 +52,8 @@ app.use(
   })
 );
 
+app.use(compression());
+
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   //console.log(req.headers);
@@ -88,7 +91,7 @@ app.use("/cart", cartRoutes);
 app.use("/review", reviewRoutes);
 app.use("/booking", bookingRoutes);
 
-app.use("/",viewRouter);
+app.use("/", viewRouter);
 
 app.use((req, res, next) => {
   const error = new Error("not found");
