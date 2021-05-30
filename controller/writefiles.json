@@ -1,0 +1,44 @@
+[
+    {
+        "startLocation": {
+            "type": "point",
+            "coordinates": []
+        },
+        "ratingsAverage": 4.5,
+        "ratingsQuantity": 0,
+        "date": "2021-05-10T13:40:44.884Z",
+        "guides": [
+            "6091329d615b9e5cd047f90e"
+        ],
+        "_id": "609937e0ce17e54b647da33b",
+        "name": "aaaaaaaaaaaaaa",
+        "number": 123456789,
+        "difficulty": "easy",
+        "location": [],
+        "slug": "aaaaaaaaaaaaaa",
+        "__v": 0,
+        "point": "90 from 100",
+        "id": "609937e0ce17e54b647da33b"
+    }
+]{
+    "startLocation": {
+        "type": "point",
+        "coordinates": []
+    },
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 0,
+    "date": "2021-05-12T10:47:33.962Z",
+    "guides": [
+        null
+    ],
+    "_id": "609bb3434c3ce93af0530819",
+    "name": "ssfrgvvs",
+    "number": 123456789,
+    "difficulty": "easy",
+    "price": 54,
+    "location": [],
+    "slug": "ssfrgvvs",
+    "__v": 0,
+    "point": "90 from 100",
+    "id": "609bb3434c3ce93af0530819"
+},

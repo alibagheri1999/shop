@@ -1,0 +1,11 @@
+GET  http://localhost:3000/user
+
+
+Content-Type: application/json
+
+{
+    "name": "asmashori",
+    "number": "123456789",
+    "difficulty":"easy",
+    "price":"64"
+}
